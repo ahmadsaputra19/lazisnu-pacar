@@ -332,6 +332,7 @@ header {
     display: flex;
     flex-direction: column;
     gap: 2rem;
+    margin-top: 50px;
   }
   .img-icon img {
     width: 100%;
