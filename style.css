@@ -24,6 +24,10 @@ section {
   margin-bottom: -5rem;
 }
 
+#home{
+  height: 90vh;
+}
+
 .container {
   padding: 6rem;
 }
