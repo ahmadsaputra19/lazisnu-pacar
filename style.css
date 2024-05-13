@@ -36,6 +36,7 @@ section {
   display: flex;
   flex-decoration: wrap;
   gap: 15rem;
+  align-items: center;
 }
 
 .page {
