@@ -146,12 +146,10 @@ header {
 .link li a {
   font-weight: bold;
   color: #444;
-  border-bottom: 0px solid #484;
 }
 
 .link li a:hover {
   color: #484;
-  border-bottom: 2px solid #484;
 }
 
 /* Dropdown Menu */
@@ -345,16 +343,13 @@ footer{
 
 footer .container{
   margin-top: 5px;
-}
-
-.footer-page{
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+  text-align: center;
 }
 
 .footer-page img{
   width: 150px;
 }
+
 
 .footer-page h2{
   margin-bottom: 5px;
@@ -364,6 +359,54 @@ footer .container{
   font-size: 13px;
 }
 
+.footer-page{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  align-items: end;
+  gap: 8rem;
+}
+
+.footer-page ul li{
+  margin-bottom: 5px;
+}
+
+ul li a{
+  color: white;
+  text-transform: uppercase;
+}
+
+ul li a:hover{
+  color: #484;
+  transition: 0.3s ease-in-out;
+}
+
+.footer-icon {
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+
+.footer-icon a {
+  margin-top: 4rem;
+  display: flex;
+  width: 30px;
+  height: 30px;
+  justify-content: center;
+  align-items: center;
+  margin-right: 9px;
+  background: #fff;
+  border-radius: 100%;
+}
+
+.footer-icon a:hover {
+  background: white;
+  transform: scale(1.3);
+  transition: 0.3s ease;
+}
+
+.copyright{
+  margin-top: 3rem;
+}
 
 /* RESPONSIVE WEBSITE */
 
