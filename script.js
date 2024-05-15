@@ -15,6 +15,7 @@ toggleBtn.onclick = function () {
 
 document.addEventListener('click', function(e){
     if(!toggleBtn.contains(e.target) && !dropDownMenu.contains(e.target)){
-        dropDownMenu.classList.remove('open')
+        dropDownMenu.classList.remove('open');
+        toggleBtnIcon.classList = 'fa-solid fa-bars';
     };
 });
