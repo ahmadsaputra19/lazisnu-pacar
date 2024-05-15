@@ -17,4 +17,4 @@ document.addEventListener('click', function(e){
     if(!toggleBtn.contains(e.target) && !dropDownMenu.contains(e.target)){
         dropDownMenu.classList.remove('open')
     };
-})
+});
