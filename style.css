@@ -360,10 +360,9 @@ footer .container{
 }
 
 .footer-page{
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
-  align-items: end;
+  display: flex;
   gap: 8rem;
+  align-items: end;
 }
 
 .footer-page ul li{
@@ -372,7 +371,6 @@ footer .container{
 
 ul li a{
   color: white;
-  text-transform: uppercase;
 }
 
 ul li a:hover{
@@ -469,14 +467,23 @@ ul li a:hover{
   }
   #program{
     margin-top: 0;
+    padding-top: 2rem;
   }
   .program-page {
+    margin-top: 2rem;
     width: 100%;
     display: flex;
     flex-direction: column;
   }
   .program-icon {
     width: 100%;
+  }
+  .footer-page{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 3rem;
+    text-align: start;
   }
 }
 
