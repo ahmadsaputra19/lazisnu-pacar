@@ -5,6 +5,10 @@
   font-family: 'arial', sans-serif;
 }
 
+html{
+  scroll-behavior: smooth;
+}
+
 body {
   /* padding: 6rem; */
   /* background: #ddd; */
