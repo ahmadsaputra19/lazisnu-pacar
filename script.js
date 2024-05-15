@@ -30,3 +30,23 @@ window.addEventListener('scroll', function() {
         header.classList.remove('header-shadow');
     }
 });
+
+
+// toTopBtn
+// script.js
+const toTopBtn = document.querySelector('.to-top');
+
+window.addEventListener('scroll', function() {
+    if (window.scrollY > 100) { // Ubah nilai 100 sesuai dengan posisi scroll yang diinginkan
+        toTopBtn.classList.add('show');
+    } else {
+        toTopBtn.classList.remove('show');
+    }
+});
+
+toTopBtn.addEventListener('click', function() {
+    window.scrollTo({
+        top: 0,
+        behavior: 'smooth'
+    });
+});
