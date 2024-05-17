@@ -340,7 +340,7 @@ header {
 
 /* kontak */
 #kontak{
-  padding: 2rem;
+  padding: 5rem;
   background: #ddd;
 }
 .kontak-form {
@@ -566,6 +566,9 @@ ul li a:hover{
     align-items: start;
     gap: 3rem;
     text-align: start;
+  }
+  #kontak{
+    padding: 2rem;
   }
 }
 
