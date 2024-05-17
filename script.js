@@ -50,3 +50,19 @@ toTopBtn.addEventListener('click', function() {
         behavior: 'smooth'
     });
 });
+
+//Hubungi Kami
+document.getElementById('whatsapp-form').addEventListener('submit', function(event) {
+    event.preventDefault();
+    
+    var name = document.getElementById('name').value;
+    var email = document.getElementById('email').value;
+    var message = document.getElementById('message').value;
+
+    var whatsappNumber = '6289603170126'; // Ganti dengan nomor WhatsApp Anda
+    var whatsappMessage = `Halo, nama saya ${name}.\nEmail saya: ${email}.\nPesan saya: ${message}`;
+
+    var whatsappURL = `https://api.whatsapp.com/send?phone=${whatsappNumber}&text=${encodeURIComponent(whatsappMessage)}`;
+    
+    window.open(whatsappURL, '_blank');
+});
