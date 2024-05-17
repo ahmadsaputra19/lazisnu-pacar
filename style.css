@@ -568,7 +568,12 @@ ul li a:hover{
     text-align: start;
   }
   #kontak{
-    padding: 2rem;
+    padding-top: 4.5rem;
+    padding: 3.5rem;
+  }
+  .kontak-form{
+    width: 100%;
+    margin-left: -1rem;
   }
 }
 
