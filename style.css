@@ -567,6 +567,9 @@ ul li a:hover{
     gap: 3rem;
     text-align: start;
   }
+  .to-top{
+    width: 25px;
+  }
   #kontak{
     padding-top: 4.5rem;
     padding: 3.5rem;
