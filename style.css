@@ -352,6 +352,7 @@ header {
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 .kontak-form h2 {
+  text-transform: uppercase;
   text-align: center;
   margin-bottom: 20px;
 }
@@ -380,7 +381,19 @@ header {
   background-color: #218838;
 }
 
-
+.kontak-form input, .kontak-form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+.kontak-form textarea {
+  resize: none; /* Prevent resizing */
+  height: 150px; /* Set a fixed height */
+  overflow-y: auto; /* Add vertical scrollbar when needed */
+}
 
 
 
@@ -391,7 +404,7 @@ footer{
 }
 
 footer .container{
-  margin-top: 5px;
+  /* margin-top: 5px; */
   text-align: center;
 }
 
