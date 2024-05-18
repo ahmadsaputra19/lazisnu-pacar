@@ -278,7 +278,7 @@ header {
 .container .index {
   font-weight: bold;
   text-transform: uppercase;
-  margin-bottom: 20px;
+  margin-bottom: 2rem;
 }
 
 .program-page {
@@ -335,6 +335,36 @@ header {
   width: 100%;
   border-radius: 10px;
   /* height: auto; */
+}
+
+/* Laporan */
+#laporan{
+  margin: 0;
+}
+#laporan .container{
+  text-align: center;
+}
+#laporan .container h2{
+  margin-bottom: 4rem;
+}
+.laporan-page{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.laporan-page ul{
+  padding: 2rem;
+  height: 100%;
+  margin-bottom: 50px;
+  border-radius: 10px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.4);
+}
+.laporan-page h3{
+  margin-bottom: 10px;
+}
+.laporan-page ul iframe{
+  border-radius: 10px;
+  height: 400px;
 }
 
 
@@ -569,6 +599,14 @@ ul li a:hover{
   }
   .to-top{
     width: 25px;
+  }
+  #laporan .container h2{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+  }
+  .laporan-page{
+    display: flex;
+    flex-direction: column;
   }
   #kontak{
     padding-top: 4.5rem;
