@@ -362,9 +362,10 @@ header {
 .laporan-page h3{
   margin-bottom: 10px;
 }
-.laporan-page ul iframe{
+.laporan-page ul object{
   border-radius: 10px;
-  height: 400px;
+  height: 450px;
+  width: 100%;
 }
 
 
