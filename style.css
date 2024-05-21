@@ -350,6 +350,7 @@ header {
 }
 .laporan-page{
   display: flex;
+  justify-content: center;
   align-items: center;
 }
 .laporan-page ul{
@@ -367,6 +368,7 @@ header {
   border-radius: 10px;
   height: 450px;
   width: 100%;
+  margin-bottom: 10px;
 }
 
 
