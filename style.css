@@ -18,8 +18,13 @@ a {
 }
 
 /* Home Section */
-section {
+/* section {
   margin-top: 5rem;
+} */
+
+.mountSvg{
+  margin-bottom: -10px;
+  animation: slideInFromDown 1s ease-in-out forwards;
 }
 
 /* Dasboard Section */
@@ -526,15 +531,15 @@ ul li a:hover {
 }
 
 /* RESPONSIVE WEBSITE */
-@media (max-width: 1080px) {
+/* @media (max-width: 1080px) {
   #dasboard svg {
     bottom: px;
   }
-}
+} */
 @media (max-width: 992px) {
-  #dasboard svg {
+  /* #dasboard svg {
     bottom: -30px;
-  }
+  } */
   .container {
     padding: 5rem;
   }
@@ -553,9 +558,9 @@ ul li a:hover {
   #dasboard {
     margin-bottom: -10rem;
   }
-  #dasboard svg {
+  /* #dasboard svg {
     margin-bottom: -22rem;
-  }
+  } */
   .container {
     padding: 3rem;
     left: 7rem;
@@ -638,24 +643,24 @@ ul li a:hover {
     margin-left: -1rem;
   }
 }
-@media (max-width: 685px){
+/* @media (max-width: 685px){
   #dasboard svg{
     margin-bottom: -20rem;
   }
-}
-@media (max-width: 650px){
+} */
+/* @media (max-width: 650px){
   #dasboard svg{
     margin-bottom: -17rem;
   }
-}
+} */
 
 
 @media (max-width: 576px) {
   /* left: 2rem;
     width: unset; */
-  #dasboard svg {
+  /* #dasboard svg {
     margin-bottom: -13rem;
-  }
+  } */
   .container {
     padding: 1rem;
   }
@@ -663,11 +668,11 @@ ul li a:hover {
     width: 90%;
   }
 }
-@media(max-width: 550px){
+/* @media(max-width: 550px){
   #dasboard svg{
     margin-bottom: -12rem;
   }
-}
+} */
 
 /* Animation Element */
 @keyframes slideInFromLeft {
@@ -676,5 +681,21 @@ ul li a:hover {
   }
   to {
     transform: translateX(0);
+  }
+}
+@keyframes slideInFromDown {
+  from{
+    transform: translateY(50%);
+  }
+  to{
+    transform: translateY(0);
+  }
+}
+@keyframes slideInTop{
+  from{
+    transform: translateY(-100%);
+  }
+  to{
+    transform: translateY(0);
   }
 }
