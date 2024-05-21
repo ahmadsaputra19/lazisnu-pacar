@@ -350,20 +350,20 @@ header {
 }
 .laporan-page{
   display: flex;
-  justify-content: space-around;
   align-items: center;
 }
 .laporan-page ul{
   padding: 2rem;
   height: 100%;
-  margin-bottom: 50px;
+  margin: 10px;
+  margin-bottom: 10px;
   border-radius: 10px;
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.4);
 }
 .laporan-page h3{
   margin-bottom: 10px;
 }
-.laporan-page ul object{
+.laporan-page ul iframe{
   border-radius: 10px;
   height: 450px;
   width: 100%;
@@ -610,6 +610,9 @@ ul li a:hover{
   .laporan-page{
     display: flex;
     flex-direction: column;
+  }
+  .laporan-page ul{
+    height: auto;
   }
   #kontak{
     padding-top: 4.5rem;
