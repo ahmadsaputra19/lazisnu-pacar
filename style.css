@@ -98,6 +98,7 @@ section {
 .img-icon img {
   width: 300px;
   margin: auto;
+  animation: slideInFromLeft 1s ease-in-out forwards;
 }
 
 /* Navbar */
@@ -634,5 +635,15 @@ ul li a:hover{
   }
   .program-icon {
     width: 90%;
+  }
+}
+
+/* Animation Element */
+@keyframes slideInFromLeft{
+  from{
+    transform: translateX(100%);
+  }
+  to{
+    transform: translateX(0);
   }
 }
