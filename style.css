@@ -390,6 +390,7 @@ header {
 #kontak {
   padding: 5rem;
   background: #bff6c3;
+  mask-image: linear-gradient(rgba(0,0,0,0), rgba(0,0,0,1)50px);
 }
 .kontak-form {
   max-width: 600px;
