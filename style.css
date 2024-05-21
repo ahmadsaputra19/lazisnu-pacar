@@ -196,8 +196,9 @@ header {
 
 /* About Section */
 #tentang {
-  background: #ddd;
+  background: rgba(205, 205, 205, 1);
   padding-bottom: 32px;
+  mask-image: linear-gradient(rgba(0,0,0,1)400px, rgba(0,0,0,0));
 }
 
 .container-about {
@@ -311,7 +312,7 @@ header {
 
 /* POST */
 #berita{
-  background: #ddd;
+  background: rgba(205, 205, 205, 1);
 }
 #berita .container h2{
   text-align: center;
@@ -372,13 +373,13 @@ header {
 /* kontak */
 #kontak{
   padding: 5rem;
-  background: #ddd;
+  background: rgba(205, 205, 205, 1);
 }
 .kontak-form {
   max-width: 600px;
   margin: 0 auto;
   padding: 20px;
-  border: 1px solid #ccc;
+  border: 1px solid grey;
   border-radius: 10px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
@@ -565,6 +566,7 @@ ul li a:hover{
     transition: 0.2s;
   }
   #tentang {
+    mask-image: linear-gradient(rgba(0, 0, 0, 2)480px, rgba(0, 0, 0, 0));
     padding-top: 4rem;
   }
   .container-about {
